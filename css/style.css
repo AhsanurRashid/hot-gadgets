@@ -1,0 +1,74 @@
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+header .nav-item{
+  font-size: 18px!important;
+}
+header .nav-link{
+  color: #707070!important;
+}
+header .navbar{
+  padding: 1rem 0rem !important;
+}
+
+#carousal-section{
+  background-image: url(../images/);
+}
+.carousel-indicators li{
+  width: 16px;
+  height: 12px;
+  background-color: #CECECE;
+  border-radius: 50%;
+}
+.carousel-indicators .active {
+  background-image: linear-gradient(45deg, #FF9C35, #FFD019);
+  width: 45px;
+  border-radius: 15.2px;
+}
+.carousel-text h1{
+  font-size: 41px;
+  color: #1F1F1F;
+}
+.carousel-text p{
+  color: #707070;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 20px 0;
+}
+.btn {
+  font-size: 20px;
+  width: 180px;
+  border-radius: 0.5rem;
+}
+.btn-dark{
+    background-color: #000000!important;
+    border-color: none!important;
+}
+.custom-title-one{
+    font-size: 30px;
+    font-weight: 600;
+}
+.custom-title-two{
+    font-size: 22px;
+    font-size: 600;
+    background: -webkit-linear-gradient(45deg, #FF9C35, #FFD019);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.custom-border{
+  border-bottom: 5px solid;
+  -webkit-border-image: -webkit-gradient(linear, left top, right top, from(#FF9C35), to(#FFD019), color-stop(0.5, #FFD019)) 21 30 30 21;
+  border-radius: 20px;
+}
+.custom-border-radius{
+  -webkit-border-radius: 20px;
+  -webkit-border-top-left-radius: 5px;
+  -webkit-border-bottom-right-radius: 5px;
+  -moz-border-radius: 20px;
+  -moz-border-radius-topleft: 5px;
+  -moz-border-radius-bottomright: 5px;
+  border-radius: 20px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
