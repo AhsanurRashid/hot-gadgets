@@ -72,3 +72,7 @@ header .navbar{
   border-top-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+.sections-padding{
+  padding: 60px 0;
+}
